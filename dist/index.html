@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c1425"><meta name="description" content="مختبر عربي مستقل لتعلّم أساسيات شبكات CCNA، مع طرفية تعليمية وتدريبات تفاعلية."><title>وصلة | مختبر الشبكات العربي</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="#"><span class="brand-icon">⌘</span><span>وصلة<small>مختبر الشبكات العربي</small></span></a>
+  <div class="course"><span class="eyebrow">مسارك التعليمي</span><strong>Introduction to Networks</strong><span>CCNA · ITN v7.02</span><div class="progress"><i id="course-bar"></i></div><small id="course-progress"></small></div>
+  <label class="search"><span>⌕</span><input id="search" placeholder="ابحث عن نشاط أو رقم درس…" aria-label="البحث في الأنشطة"></label>
+  <label class="filter-label">الوحدة<select id="module"><option value="all">جميع الوحدات</option></select></label>
+  <div class="catalog-heading">مكتبة الأنشطة <span id="count"></span></div>
+  <nav id="catalog" aria-label="أنشطة المسار"></nav>
+  <div class="sidebar-foot"><span class="status-dot"></span> الحفظ تلقائي على هذا المتصفح<button id="export" title="تنزيل نسخة من تقدّمك">تصدير التقدّم ↓</button><label class="import-label">استيراد التقدّم ↑<input id="import" type="file" accept="application/json" hidden></label></div>
+</aside>
+<main>
+  <header class="topbar"><span>مساحة التعلّم <span class="muted">/</span> <b id="crumb"></b></span><span class="version">نسخة تأسيسية · 0.1</span></header>
+  <section class="intro"><div><div class="eyebrow"><span class="status-dot"></span> تعلّم الشبكات بالتجربة</div><h1 id="title"></h1><p id="subtitle"></p></div><button id="reset" class="secondary">↺ إعادة النشاط</button></section>
+  <div class="notice">مختبر مستقل مستوحى من موضوعات المنهج. الأنشطة هنا تدريبات أصلية مبسطة؛ لم تُستخرج تعليمات ملفات Cisco أو شبكاتها، ولا يدعم الموقع تشغيل PKA / PKT.</div>
+  <div class="workspace">
+    <section class="panel network-panel"><div class="panel-head"><h2><span class="panel-icon">⌘</span> مخطط الشبكة</h2><span class="pill">شبكة تدريبية</span></div><div id="topology"></div><div id="network-tools"></div><div class="network-legend"><span><i class="status-dot"></i> وصلة مفعّلة</span><span><i class="status-dot off"></i> وصلة مفصولة</span><span>اختر جهازًا لعرض إعداداته</span></div></section>
+    <section class="panel objectives-panel"><div class="panel-head"><h2>أهداف المختبر</h2><strong class="score" id="score">0%</strong></div><div class="progress"><i id="lab-bar"></i></div><div id="objectives"></div><button id="check" class="primary full">✓ فحص التقدّم</button><div id="feedback" role="status" aria-live="polite"></div><details><summary>تلميحات وأوامر مساعدة</summary><div id="hints"></div></details></section>
+    <section class="panel console-panel"><div class="panel-head"><div class="tabs"><button class="tab active" data-view="terminal">طرفية CLI</button><button class="tab" data-view="device">إعدادات الجهاز</button><button class="tab" data-view="learning">شرح النشاط</button></div><select id="device-select" aria-label="اختيار الجهاز"></select></div><div id="terminal-view"><div class="terminal" id="terminal" role="log" aria-label="مخرجات الطرفية" dir="ltr"></div><form id="cli-form" dir="ltr"><label id="prompt" for="command"></label><input id="command" autocomplete="off" spellcheck="false" aria-label="أمر IOS أو أمر حاسب" placeholder="اكتب ? لعرض الأوامر المدعومة"><button type="submit" aria-label="تنفيذ الأمر">↵</button></form></div><div id="device-view" hidden></div><div id="learning-view" hidden></div></section>
+    <section class="panel practice-panel"><div class="panel-head"><h2 id="practice-title">دفتر التجربة</h2><span class="pill">تفاعلي</span></div><div id="practice"></div></section>
+  </div>
+  <footer>وصلة · مساحة عربية للتجربة والفهم <span>تطبيق تعليمي مستقل، غير تابع لـ Cisco أو معتمد منها.</span></footer>
+</main><div class="toast" id="toast" role="status" hidden></div>
+<script type="module" src="./app.js"></script>
+</body></html>

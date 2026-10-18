@@ -1,0 +1,154 @@
+[
+  {
+    "Name": "1.5.5 Packet Tracer - Network Representation.pka",
+    "Length": 1324540
+  },
+  {
+    "Name": "1.5.7 Packet Tracer - Network Representation.pka",
+    "Length": 1260688
+  },
+  {
+    "Name": "10.1.4 Packet Tracer - Configure Initial Router Settings.pka",
+    "Length": 156737
+  },
+  {
+    "Name": "10.3.4 Packet Tracer - Connect a Router to a LAN.pka",
+    "Length": 696400
+  },
+  {
+    "Name": "10.3.5 Packet Tracer - Troubleshoot Default Gateway Issues.pka",
+    "Length": 326441
+  },
+  {
+    "Name": "10.4.3 Packet Tracer - Basic Device Configuration.pka",
+    "Length": 674654
+  },
+  {
+    "Name": "11.10.1 Packet Tracer - Design and Implement a VLSM Addressing Scheme.pka",
+    "Length": 762369
+  },
+  {
+    "Name": "11.10.2 Packet Tracer - Design and Implement a VLSM Addressing Scheme - Physical Mode.pka",
+    "Length": 387213
+  },
+  {
+    "Name": "11.5.5 Packet Tracer - Subnet an IPv4 Network.pka",
+    "Length": 282442
+  },
+  {
+    "Name": "11.7.5 Packet Tracer - Subnetting Scenario.pka",
+    "Length": 689695
+  },
+  {
+    "Name": "11.9.3 Packet Tracer - VLSM Design and Implementation Practice.pka",
+    "Length": 327695
+  },
+  {
+    "Name": "12.4.5 Packet Tracer - Basic Device Configuration.pka",
+    "Length": 682501
+  },
+  {
+    "Name": "12.6.6 Packet Tracer - Configure IPv6 Addressing.pka",
+    "Length": 775837
+  },
+  {
+    "Name": "12.9.1 Packet Tracer - Implement a Subnetted IPv6 Addressing Scheme.pka",
+    "Length": 300729
+  },
+  {
+    "Name": "13.2.6 Packet Tracer - Verify IPv4 and IPv6 Addressing.pka",
+    "Length": 689278
+  },
+  {
+    "Name": "13.2.7 Packet Tracer - Use Ping and Traceroute to Test Network Connectivity.pka",
+    "Length": 732091
+  },
+  {
+    "Name": "13.3.1 Packet Tracer - Use ICMP to Test and Correct Network Connectivity.pka",
+    "Length": 564430
+  },
+  {
+    "Name": "14.8.1 Packet Tracer - TCP and UDP Communications.pka",
+    "Length": 663684
+  },
+  {
+    "Name": "16.4.6 Packet Tracer - Configure Secure Passwords and SSH.pka",
+    "Length": 358649
+  },
+  {
+    "Name": "16.5.1 Packet Tracer - Secure Network Devices.pka",
+    "Length": 300318
+  },
+  {
+    "Name": "17.5.9 Packet Tracer - Interpret show Command Output.pka",
+    "Length": 671420
+  },
+  {
+    "Name": "17.7.7 Packet Tracer - Troubleshoot Connectivity Issues.pka",
+    "Length": 639683
+  },
+  {
+    "Name": "17.8.2 Packet Tracer - Skills Integration Challenge.pka",
+    "Length": 927411
+  },
+  {
+    "Name": "17.8.3 Packet Tracer - Troubleshooting Challenge.pka",
+    "Length": 431550
+  },
+  {
+    "Name": "2.3.7 Packet Tracer - Navigate the IOS.pka",
+    "Length": 157182
+  },
+  {
+    "Name": "2.5.5 Packet Tracer - Configure Initial Switch Settings.pka",
+    "Length": 170716
+  },
+  {
+    "Name": "2.7.6 Packet Tracer - Implement Basic Connectivity.pka",
+    "Length": 507955
+  },
+  {
+    "Name": "2.8.1 Video Activity - Test the Interface Assignment.pkt",
+    "Length": 46486
+  },
+  {
+    "Name": "2.8.2 Video Activity - Test End-to-End Connectivity.pkt",
+    "Length": 46449
+  },
+  {
+    "Name": "2.9.1 Packet Tracer - Basic Switch and End Device Configuration.pka",
+    "Length": 209996
+  },
+  {
+    "Name": "3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action.pka",
+    "Length": 613078
+  },
+  {
+    "Name": "4.6.5 Packet Tracer - Connect a Wired and Wireless LAN.pka",
+    "Length": 584283
+  },
+  {
+    "Name": "4.7.1 Packet Tracer - Connect the Physical Layer.pka",
+    "Length": 514261
+  },
+  {
+    "Name": "4.7.1 Packet Tracer - Physical Layer Exploration - Physical Mode.pka",
+    "Length": 8366630
+  },
+  {
+    "Name": "4.7.2 Packet Tracer - Connect the Physical Layer.pka",
+    "Length": 596993
+  },
+  {
+    "Name": "9.1.3 Packet Tracer - Identify MAC and IP Addresses.pka",
+    "Length": 685905
+  },
+  {
+    "Name": "9.2.9 Packet Tracer - Examine the ARP Table.pka",
+    "Length": 705427
+  },
+  {
+    "Name": "9.3.4 Packet Tracer - IPv6 Neighbor Discovery.pka",
+    "Length": 641862
+  }
+]
